@@ -31,12 +31,6 @@ git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/luci-th
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
-#删除默认密码
-sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
-
-#更改时区
-sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
-
 #更新feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
