@@ -22,7 +22,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Blog: https://p3terx.com
 #=================================================
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.50.111/g' package/base-files/files/bin/config_generate
 
 #Add a feed source
 #sed -i '$a src-git lienol https://github.com/lienol/openwrt' feeds.conf.default
