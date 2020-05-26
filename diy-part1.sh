@@ -34,6 +34,8 @@ git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/luci-th
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
+git clone https://github.com/rosywrt/luci-theme-rosy.git ./package/luci-theme-rosy
+
 
 #更新feeds
 ./scripts/feeds update -a
