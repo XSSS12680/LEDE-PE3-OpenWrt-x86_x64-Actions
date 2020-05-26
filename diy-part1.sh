@@ -28,6 +28,7 @@ sed -i 's/192.168.1.1/192.168.50.111/g' package/base-files/files/bin/config_gene
 #sed -i '$a src-git lienol https://github.com/lienol/openwrt' feeds.conf.default
 
 #自定插件
+git clone https://github.com/jerrykuku/luci-theme-argon -b 19.07_stable package/luci-theme-argon
 git clone https://github.com/openwrt-develop/luci-theme-atmaterial package/luci-theme-atmaterial
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/luci-theme-darkmatter
