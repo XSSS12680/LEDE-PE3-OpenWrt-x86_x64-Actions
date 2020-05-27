@@ -26,6 +26,8 @@ sed -i 's/192.168.1.1/192.168.50.111/g' package/base-files/files/bin/config_gene
 
 #Add a feed source
 #sed -i '$a src-git lienol https://github.com/lienol/openwrt' feeds.conf.default
+cd openwrt
+rm -Rf package/lean/luci-theme-argon
 
 #自定插件
 git clone https://github.com/jerrykuku/luci-theme-argon -b 19.07_stable package/luci-theme-argon
@@ -36,7 +38,6 @@ git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smart
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
 git clone https://github.com/rosywrt/luci-theme-rosy.git ./package/luci-theme-rosy
-
 
 #更新feeds
 ./scripts/feeds update -a
