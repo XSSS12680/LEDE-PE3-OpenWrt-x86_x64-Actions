@@ -9,17 +9,17 @@
 name: 云编译64位插件定制版1.0 OpenWrt-CI
 
 on:
-  release:
-    types: published
-  push:
-    branches:
-      - master
+#  release:
+#    types: published
+#  push:
+#    branches:
+#      - master
     paths:
       - '.config_x64'
-  schedule:
-   - cron: 0 8 * * 5
-  watch:
-    types: started
+#  schedule:
+#   - cron: 0 8 * * 5
+#  watch:
+#    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
