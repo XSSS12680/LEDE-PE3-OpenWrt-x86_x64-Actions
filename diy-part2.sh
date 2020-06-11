@@ -33,12 +33,16 @@ git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
 
 #    https://github.com/sikucankao/DIY-Actions-OpenWrt-Nginx/blob/master/diy.sh
 svn co https://github.com/openwrt/luci/trunk/applications/luci-app-acme
-svn co https://github.com/vernesong/OpenClash/branches/master/luci-app-openclash
+svn co https://github.com/vernesong/OpenClash/branches/master/luci-app-openclash package/luci-app-openclash
+git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 
 #  OpenClash
 echo 'CONFIG_PACKAGE_luci-app-openclash=y' >> .config
 echo 'CONFIG_PACKAGE_luci-i18n-openclash-zh-cn=y'  >> .config
 
+
+#  luci-app-clash
+echo 'CONFIG_PACKAGE_luci-app-lash=y' >> .config
 
 #CONFIG_PACKAGE_luci-app-acme=y
 echo 'CONFIG_PACKAGE_luci-app-acme=y' >> .config
