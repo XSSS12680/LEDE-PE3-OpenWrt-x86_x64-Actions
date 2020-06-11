@@ -29,7 +29,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
+##git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
 
 #    https://github.com/sikucankao/DIY-Actions-OpenWrt-Nginx/blob/master/diy.sh
 svn co https://github.com/openwrt/luci/trunk/applications/luci-app-acme
