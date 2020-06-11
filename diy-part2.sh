@@ -33,7 +33,7 @@ git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
 
 #    https://github.com/sikucankao/DIY-Actions-OpenWrt-Nginx/blob/master/diy.sh
 svn co https://github.com/openwrt/luci/trunk/applications/luci-app-acme
-svn co https://github.com/vernesong/OpenClash/branches/master/luci-app-openclash package/luci-app-openclash
+svn co https://github.com/vernesong/OpenClash/branches/master/luci-app-openclash
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 
 #  OpenClash
