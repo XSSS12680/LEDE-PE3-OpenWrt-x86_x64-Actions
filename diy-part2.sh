@@ -42,7 +42,7 @@ echo 'CONFIG_PACKAGE_luci-i18n-openclash-zh-cn=y'  >> .config
 
 
 #  luci-app-clash
-echo 'CONFIG_PACKAGE_luci-app-lash=y' >> .config
+echo 'CONFIG_PACKAGE_luci-app-clash=y' >> .config
 
 #CONFIG_PACKAGE_luci-app-acme=y
 echo 'CONFIG_PACKAGE_luci-app-acme=y' >> .config
