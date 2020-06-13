@@ -33,8 +33,11 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 #    https://github.com/sikucankao/DIY-Actions-OpenWrt-Nginx/blob/master/diy.sh
 svn co https://github.com/openwrt/luci/trunk/applications/luci-app-acme
-svn co https://github.com/vernesong/OpenClash/branches/master/luci-app-openclash
+####svn co https://github.com/vernesong/OpenClash/branches/master/luci-app-openclash
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
+
+# Add OpenClash
+git clone --depth=1 -b master https://github.com/vernesong/OpenClash
 
 #  OpenClash
 echo 'CONFIG_PACKAGE_luci-app-openclash=y' >> .config
